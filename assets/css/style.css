@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'Raleway', sans-serif;*/
+}
+
+#jumbo-div{
+	padding-top: 10%;
+	height: 100vh;
+	background-color: #333;
+	
+}
+	
+
+#jumbotron-section{
+	
+}
+
+
+#jumbo-div{
+	padding-top: 10%;
+	height: 100vh;
+	background-image: url("../images/slide_smile3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	opacity: 0.5;
+
+}
+
+.bg-navbar{
+	background-color: white;
+	padding-left: 200px;
+	padding-right: 200px;
+	min-height: 10%;
+}
