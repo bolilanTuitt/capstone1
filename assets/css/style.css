@@ -36,3 +36,56 @@
 	padding-right: 200px;
 	min-height: 10%;
 }
+
+#carousel-home{
+	height: 100vh;
+}
+
+#carousel-home img{
+	height: auto;
+	max-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	#carousel-home{
+		height: auto;
+	}
+}
+
+
+@media only screen and (max-width: 450px){
+
+#carousel-home{
+	height: auto;
+	}
+}
