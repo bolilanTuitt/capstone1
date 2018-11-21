@@ -5,18 +5,6 @@
 	/*font-family: 'Raleway', sans-serif;*/
 }
 
-#jumbo-div{
-	padding-top: 10%;
-	height: 100vh;
-	background-color: #333;
-	
-}
-
-
-#jumbotron-section{
-	
-}
-
 
 #jumbo-div{
 	padding-top: 10%;
@@ -32,22 +20,30 @@
 
 .bg-navbar{
 	background-color: white;
-	padding-left: 200px;
-	padding-right: 200px;
-	min-height: 10%;
-	opacity: 0.5;
+	padding-left: 10%;
+	padding-right: 10%;
+	min-height: 50px;
+	
 }
 
 #carousel-home{
-	height: 100vh;
+	height: 80vh;
+	
 }
 
 #carousel-home img{
-	height: auto;
-	max-height: 100vh;
+	height: 80vh;
+	max-height: 80vh;
 }
 
+#logo{
+	width: 250px;
+	height: 50px;
+}
 
+.servicesContainer{
+	height: 100vh;
+}
 
 
 
