@@ -5,6 +5,9 @@
 	/*font-family: 'Raleway', sans-serif;*/
 }
 
+#top{
+	padding-top: 50px;
+}
 
 #jumbo-div{
 	padding-top: 10%;
@@ -23,17 +26,19 @@
 	padding-left: 10%;
 	padding-right: 10%;
 	min-height: 50px;
+	/*opacity: 0.5;*/
+	border-bottom-style: 
 	
 }
 
 #carousel-home{
-	height: 80vh;
+	height: 85vh;
 	
 }
 
 #carousel-home img{
-	height: 80vh;
-	max-height: 80vh;
+	height: 85vh;
+	max-height: 85vh;
 }
 
 #logo{
@@ -43,9 +48,25 @@
 
 .servicesContainer{
 	height: 100vh;
+	padding-top: 100px;
 }
 
 
+.cardHeight{
+	/*height: 300px;*/
+	min-height: 300px;
+
+}
+
+.card img{
+	height: 300px;
+	min-height: 300px;
+
+}
+
+.card{
+	border: none;
+}
 
 
 
