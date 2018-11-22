@@ -6,7 +6,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Re-new Your Smile Dental Clinic</title>
+	<title>Re-New Your Smile Dental Clinic</title>
 
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -30,10 +30,10 @@
 
 <body id="top">
 
-	<nav class="navbar navbar-default navbar-expand-lg navbar-light bg-navbar fixed-top">
+	<nav id="navbar" class="navbar navbar-default navbar-expand-lg navbar-light bg-navbar fixed-top">
 	
 			<a class="navbar-brand" href="index.html">
-				<i class="fas fa-tooth"></i>
+				<!-- <i class="fas fa-tooth"></i> -->
 				<img class="img-fluid" id="logo" src="assets/images/renewLogo.jpg">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
@@ -43,19 +43,19 @@
 			<div id="navbar-nav" class="collapse navbar-collapse">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link active" href="#"><strong>Home</strong></a>
+						<a id="home" class="nav-link" href="index.html"><strong>Home</strong></a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#servicesPage"> <strong>Dental Services</strong> </a>
+						<a id="services" class="nav-link" href="#servicesPage"> <strong>Dental Services</strong> </a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><strong>About</strong></a>
+						<a class="nav-link" href="#"><strong>Facilities</strong></a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#"> <strong>Facilities</strong> </a>
+						<a class="nav-link" href="#"> <strong>About</strong> </a>
 					</li>
 
 					<li class="nav-item">
@@ -75,10 +75,6 @@
 		</nav> <!-- end nav -->
 
 
-		<div>
-			
-		</div>
-
 		<!-- <section id="jumbotron-section" class="bg">
 			<div id="jumbo-div" class="jumbotron mb-0">
 				<div id="port-jumbo" class="container">
@@ -88,7 +84,7 @@
 			<!-- </div> --> <!-- end jumbotron -->
 		<!-- </section>  --><!-- end of jumbo section -->
 
-		<div id="carousel-home" class="carousel slide" data-ride="carousel">
+		<div id="carousel-home" class="carousel slide " data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-home" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-home" data-slide-to="1" ></li>
@@ -148,18 +144,6 @@
 				</a>
 			</div> <!-- end carousel inner -->
 		</div> <!-- end carousel -->
-
-
-
-
-		<!-- <section id="jumbotron-section" class="bg">
-			<div id="jumbo-div" class="jumbotron mb-0">
-				<div id="port-jumbo" class="container">
-					<h1 class="text-center">Welcome to Re-new Your Smile Dental Clinic!</h1>
-					<p class="text-center lead primary ">The Best Dental Clinic in Rizal</p>
-				</div> --> <!-- end jumbo container -->
-			<!-- </div>  --><!-- end jumbotron -->
-		<!-- </section>  --><!-- end of jumbo section -->
 
 
 
@@ -233,6 +217,53 @@
 
 
 
+		<section id="jumbotron-section" class="bg">
+			<div id="jumbo-div" class="jumbotron mb-0">
+				<div id="port-jumbo" class="container">
+					<!-- <h1 class="text-center">About Us</h1>
+					<p class="text-center lead primary"> The Best Dental Clinic in Rizal</p> -->
+
+					<div class="row">
+						<div class="col-12 col-md-3">
+							<img id="dentist" class="img-fluid dentist" src="assets/images/DrRachel.jpg">
+						</div>
+
+						<div class="col-12 col-md-6">
+							<h3 class="py-5">Dr. Rachel Esteban |</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="row">
+						
+						<div class="col-12 col-md-6">
+							<h3 class="py-5 text-right">Dr. Rachel Esteban |</h3>
+							<p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+
+						<div class="col-12 col-md-3">
+							<img id="dentist" class="img-fluid dentist" src="assets/images/DrRachel.jpg">
+						</div>
+					</div>
+
+					
+					
+				</div> <!-- end jumbo container -->
+			</div>  <!-- end jumbotron -->
+		</section> <!-- end of jumbo section -->
+
 
 
 
@@ -267,7 +298,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	
-	<script src="assets/js/bootstrap.min.js"></script> <!-- remove third source change to this -->
+	<script src="assets/js/bootstrap.min.js"></script>
 
 
 

@@ -5,13 +5,18 @@
 	/*font-family: 'Raleway', sans-serif;*/
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 #top{
 	padding-top: 50px;
 }
 
 #jumbo-div{
 	padding-top: 10%;
-	height: 100vh;
+	min-height: 100vh;
+	/*height: 100vh;*/
 	background-image: url("../images/slide_smile3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -27,7 +32,7 @@
 	padding-right: 10%;
 	min-height: 50px;
 	/*opacity: 0.5;*/
-	border-bottom-style: 
+	box-shadow: 0 0 5px #aaaaaa;
 	
 }
 
@@ -42,12 +47,13 @@
 }
 
 #logo{
-	width: 250px;
+	/*width: 40%;*/
 	height: 50px;
 }
 
 .servicesContainer{
-	height: 100vh;
+	
+	min-height: 100vh;
 	padding-top: 100px;
 }
 
@@ -66,6 +72,10 @@
 
 .card{
 	border: none;
+}
+
+.dentist{
+	border-radius: 200px;
 }
 
 
@@ -103,7 +113,11 @@
 
 @media only screen and (max-width: 450px){
 
-#carousel-home{
-	height: auto;
-	}
+	#carousel-home{
+		height: auto;
+		}
+
+
+
+
 }
