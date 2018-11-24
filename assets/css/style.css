@@ -9,9 +9,78 @@ html{
 	scroll-behavior: smooth;
 }
 
+body{
+	overflow-x: hidden;
+
+}
+
+/*landing-page*/
+
+#landing{
+
+	height: 100vh;
+	min-height: 100vh;
+	background-image: url("../images/facilitiesBG.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   	
+    /*position: relative;*/
+}
+
+.no-margin{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+#jumbo-land{
+	height: 100vh;
+	/*margin-top: 20%;*/
+	padding-top: 10%;
+	background-image: url("../images/facilitiesBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: #333; /*off black*/*/
+	border-radius: 0; /*remove jumbo's rounded corners*/
+}
+
+
+.logo{
+	height: 200px;
+	width: 600px;
+}
+
+.landingContainer{
+	border:5px solid pink;
+	border-radius: 50px;
+	width: 80%;
+	margin-top: 500px;
+	margin: 0 auto;
+
+
+}
+
+#greeting{
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	margin-top: 20px;
+	color: #E42CE7;
+}
+
+
+
+
+
+
+
+/*end of landing-page*/
+
 #top{
 	padding-top: 50px;
 }
+
 
 #jumbo-div{
 	padding-top: 10%;
@@ -79,12 +148,23 @@ html{
 }
 
 
+.carousel-caption{
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	margin-top: 20px;
+	color: #E42CE7;
+	margin-top: -200px;
+}
+
+.border-contact{
+	border: 2px solid black;
+}
 
 
 
-
-
-
+.pink{
+	color: #E42CE7;
+}
 
 
 
@@ -108,6 +188,9 @@ html{
 	#carousel-home{
 		height: auto;
 	}
+
+
+
 }
 
 
@@ -117,7 +200,21 @@ html{
 		height: auto;
 		}
 
+	#greeting{
+		font-family: 'Bangers', cursive;
+		font-size: 25px;
+		/*margin-top: 150px;*/
+		color: #E42CE7;
+	}
 
+	#carousel-home img{
+		height: 50vh;
+		max-height: 50vh;
+	}
 
+	body{
+		width: 100vw;
+		margin: 0 auto;
+	}
 
 }
